@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey form</title>
+    </head>
+
+  <body>
+
+    <header>
+      <nav class="sticky">
+  
+              <div class="navigation-bar">
+  
+                  <ul class="menu">
+  
+                          <li class="home" value="home">
+                              <a href="../index.html">
+                                  Home</a>
+                              </li>
+                                  
+                          <li class="login" value="login">
+                                      <a href="../login-form/index.html">
+                                          Login</a>
+                                      </li>
+  
+                          <li class="signup" value="signup">
+                                  <a href="../signup-form/index.html">
+                                      Sign-Up</a>
+                                  </li>
+                  </ul>                
+                 
+              </div>
+  
+       </nav>
+  
+  </header>
+  <div class="survey-form">
+
+    <h1 id="title">Welcome To Our Survey</h1>
+
+    <p id="description">
+      Thank you for taking the time to help us improve the platform 
+    </p>
+
+    <fieldset>
+      <form id="survey-form" method="post" action="../thanks/index.html" href="../thanks/index.html">
+
+        <label id="name-label">Name:<input type="text" id="name" placeholder="Enter your name" required></label>
+
+        <label id="email-label">Email:<input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+
+        <label id="number-label">Age:<input type="number" id="number" min="13" max="120" placeholder="Age">
+        </label>
+        <label id="residence-label">Residence:
+          <input type="text" id="residence" placeholder="Enter your residence" required>
+        </label>
+
+        <label id="gender">Gender:<br>
+          <select name="gender" id="gender-dropdown">
+            <option>Select your Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+          </select>
+        </label>
+
+        <label>
+          <span id="query">Which option best describes your current role?</span>
+          <select id="feature-dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full time Job</option>
+            <option>Full time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label id="features">
+          <span id="query">What is your favorite feature of this website?</span>
+          <select id="feature-dropdown">
+            <option>Select an option</option>
+            <option>Menu</option>
+            <option>Prices</option>
+            <option>Presentation</option>
+            <option>Quality</option>
+          </select>
+        </label>
+
+        <label id="recommend">
+          On a scale of 1-10, How would you recommend this website?
+          <input type="number" name="recommend" max="10" min="0" class="recommend" required>
+        </label>
+
+        <label>Any comments or suggestions?
+          <textarea placeholder="Enter your comments here..."></textarea>
+        </label>  
+
+        <input type="submit" value="Submit" id="submit" method="POST" href="../">
+      </form>
+    </fieldset>
+  </div>
+
+  <footer>
+    <div class="text">
+      <span>Created By<a href="../index.html">Annuar Ndung'u</a> |&nbsp; © 2023 All Rights Reserved <a href="#" style="text-decoration: underline;">Back To Top</a> </span>
+    </div>
+  </footer>
+</body>
+
+</html>
