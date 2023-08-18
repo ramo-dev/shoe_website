@@ -1,6 +1,6 @@
 body
 {
-  background-image: url("/images/final-wave.svg");
+  background-image: url("../images/final-wave.svg");
     background-size: cover; 
     background-position:center center;
     transform: scale(1);
@@ -38,6 +38,6 @@ button:hover{
 {
     padding-left:145px;
     padding-top:130px;
-    color:rgb(255, 208, 0);
+    color:black;
     font-size: 23px;
 }
